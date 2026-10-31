@@ -123,9 +123,16 @@ The public lookup on a phone.
 
 ## Who built it
 
-A two-person project: **Sothe** ([@ImSothe](https://github.com/ImSothe)) **leads it and specifies the product**, and it is
-developed together with **TenM** ([@TenMM2](https://github.com/TenMM2)). It is built with AI assistants (Claude Code):
-Sothe designs, specifies and tests, and the code is written with Claude Code.
+A two-person project: **Sothe** ([@ImSothe](https://github.com/ImSothe)) **leads it and specifies the product**, and
+**TenM** ([@TenMM2](https://github.com/TenMM2)) reviewed and hardened its security. It is built with AI assistants
+(Claude Code). The split below comes from the project's git history (at 31/10/2026: 41 commits by Sothe, 1 by TenM),
+so it shows who committed what, not every idea or conversation.
+
+| | **Sothe** (@ImSothe) | **TenM** (@TenMM2) |
+|---|---|---|
+| **Role** | Project lead and product specification | Security review and hardening |
+| **Delivers** | The whole product: the cinematic portal and transformation scene, My Garage with the digital green light, the mechanic panel (timers, logbook, shop-floor operations, history, calculator), the booking calendar, the ERP connector, plate-car-owner rules and the Firebase layer | A pre-launch security pass (29/10): fail-closed behaviour when Firebase cannot start, tighter Firestore rules, hidden staff views for non-staff sessions, hosting security headers (CSP, HSTS and more), the upgrade of the spreadsheet library to fix two known vulnerabilities, self-hosted fonts, extra rules tests and a security audit document |
+| **Also** | The privacy mirror and its tests, the 250 unit tests and the QA report | |
 
 ## Want to try it?
 
