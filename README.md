@@ -123,8 +123,9 @@ The public lookup on a phone.
 
 ## Who built it
 
-Designed, specified and tested by **Sothe** ([@ImSothe](https://github.com/ImSothe)) and built with AI assistants
-(Claude Code).
+A two-person project: **Sothe** ([@ImSothe](https://github.com/ImSothe)) **leads it and specifies the product**, and it is
+developed together with **TenM** ([@TenMM2](https://github.com/TenMM2)). It is built with AI assistants (Claude Code):
+Sothe designs, specifies and tests, and the code is written with Claude Code.
 
 ## Want to try it?
 
@@ -134,7 +135,7 @@ reach out on Instagram **[@SoySothe](https://www.instagram.com/soysothe)** or on
 
 ## Legal notice
 
-© 2026 Sothe. All rights reserved. This repository contains documentation and images only; the application is
+© 2026 Sothe and TenM. All rights reserved. This repository contains documentation and images only; the application is
 not open source and is not licensed for use or redistribution (see [LICENSE](LICENSE)). All shops, customers,
 plates and amounts are fictional. Car brand names and logos appear only to show which brands a shop can
 configure; they belong to their owners, and this project is independent and not affiliated with any of them.
